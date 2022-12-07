@@ -1,0 +1,27 @@
+.side-nav{
+    display: flex;
+    flex-direction: column;
+    background: white;
+    width: 100%;
+    position: absolute;
+    top: 76px;
+    opacity: 0;
+    pointer-events: none;
+    transform: translateY(-100%);
+    transition: transform .3s ease-in-out,
+        opacity .3s ease-in-out;
+}
+.side-nav.visible{
+    opacity: 1;
+    pointer-events: auto;
+    transform: none;
+}
+.side-nav .link{
+    color: white;
+    padding: 8px 4px;
+    color: black;
+}
+
+.side-nav .link:hover{
+    background: rgba(0,0,0,0.4);
+}

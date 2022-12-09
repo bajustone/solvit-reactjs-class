@@ -1,0 +1,12 @@
+.rights{
+ height:100%;
+ width:calc(100% - 180px);
+}
+.card{
+    width:180px;
+    height:100px;
+    border-radius:12px;
+    box-shadow:0px 0px 12px rgba(0,0,0,0.6);
+    position:absolute;
+    left:50%;
+}

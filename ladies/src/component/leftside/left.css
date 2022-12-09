@@ -1,0 +1,10 @@
+.left-side{
+    height:100%;
+    width:180px;
+    background:black;
+}
+.left-side h1{
+    color:white;
+    font-size:13px;
+    font-family:arial;
+}

@@ -1,0 +1,46 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: white;
+}
+html, body, #root{
+    width: 100%;
+    height: 100%;
+}
+
+.contact-list, .chats{
+    display: inline-block;
+    height: 100%;
+    vertical-align: top;
+    background: #111b21;
+}
+.contact-list{
+    width: 40%;
+}
+.chats{
+    width: 60%;
+}
+
+/** contact item */
+.contact-item{
+    display: flex;
+    flex-direction: row;
+    height: 48px;
+    gap: 12px;
+    align-items: center;
+}
+.contact-desc{
+    border-bottom: 1px solid #666;
+    padding: 4px;
+}
+.contact-item img{
+    height: 100%;
+    border-radius: 50%;
+}
+.contact-item h1{
+    font-size: 12px;
+}
+.contact-item span{
+    font-size: 9px;
+}
